@@ -44,8 +44,9 @@ def health_check():
     return {
         "status": "healthy",
         "service": "ForensIQ Scientific Forensics",
-        "version": "2.4.0",
+        "version": "2.5.0",
         "pipelines": [
+            "Generative AI Vision Transformer (Diffusion/GAN)",
             "2D Fourier Nyquist Spectral Analysis",
             "CMOS Silicon Sensor Shot Noise Variance",
             "ViT Transformer Self-Attention Rollout"
