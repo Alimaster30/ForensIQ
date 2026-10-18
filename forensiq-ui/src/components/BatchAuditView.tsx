@@ -160,7 +160,7 @@ export const BatchAuditView: React.FC<BatchAuditViewProps> = ({ onInspectCase })
       noiseResidualImage: layers.noise_residual_url || item.previewUrl,
       flaggedZones: [
         { zone: 'Spectral Nyquist Area', intensity: item.metrics.spectral_nyquist_energy > 0.0008 ? 0.92 : 0.15, description: 'Periodic high-frequency evaluation' },
-        { zone: 'CMOS Shot Noise Residual', intensity: item.metrics.bg_sensor_noise_variance < 2.0 ? 0.88 : 0.20, description: 'Sensor substrate variance' }
+        { zone: 'CMOS Shot Noise Residual', intensity: item.metrics.bg_sensor_noise_variance < 0.8 ? 0.88 : 0.20, description: 'Sensor substrate variance' }
       ]
     };
 

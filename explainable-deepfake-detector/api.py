@@ -1,6 +1,7 @@
 import os
 import shutil
 import tempfile
+import base64
 from pathlib import Path
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -72,19 +73,24 @@ async def detect_image(file: UploadFile = File(...)):
         tmp_path = tmp.name
 
     try:
-        # Run scientific analysis
-        result = detector.analyze(tmp_path, output_dir=str(OUTPUTS_DIR))
+        # Run scientific analysis with deep ViT attention rollout
+        result = detector.analyze(tmp_path, output_dir=str(OUTPUTS_DIR), deep_scan=True)
         layers = result.get("visual_layers", {})
 
-        def get_url(p):
+        def get_layer_uri(p):
             if p and os.path.exists(p):
-                return f"http://localhost:8000/reports/{os.path.basename(p)}"
+                try:
+                    with open(p, "rb") as img_file:
+                        encoded = base64.b64encode(img_file.read()).decode("utf-8")
+                        return f"data:image/jpeg;base64,{encoded}"
+                except Exception:
+                    return f"http://localhost:8000/reports/{os.path.basename(p)}"
             return None
 
-        vit_overlay_url = get_url(layers.get("vit_overlay"))
-        fft_spectrum_url = get_url(layers.get("fft_spectrum"))
-        noise_residual_url = get_url(layers.get("noise_residual"))
-        full_report_url = get_url(layers.get("full_report"))
+        vit_overlay_url = get_layer_uri(layers.get("vit_overlay"))
+        fft_spectrum_url = get_layer_uri(layers.get("fft_spectrum"))
+        noise_residual_url = get_layer_uri(layers.get("noise_residual"))
+        full_report_url = get_layer_uri(layers.get("full_report"))
 
         return {
             "status": "success",

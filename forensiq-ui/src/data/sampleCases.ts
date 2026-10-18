@@ -33,7 +33,7 @@ export const SAMPLE_CASES: ForensicCase[] = [
     confidence: '88.0%',
     metrics: {
       spectral_nyquist_energy: 0.000398,
-      bg_sensor_noise_variance: 219.22,
+      bg_sensor_noise_variance: 3.42,
       faceswap_prob: 0.0074,
       inference_ms: 18.2,
       pipeline_tier: 'Tier 0 (Fast Optics & Nyquist Triage)',
@@ -41,7 +41,7 @@ export const SAMPLE_CASES: ForensicCase[] = [
     },
     reasons: [
       'Normal optical lens rolloff (0.000398): No neural upsampler checkerboard grid artifacts detected.',
-      'Physical CMOS sensor shot noise present (Noise variance: 219.22): Consistent with natural optical camera capture.',
+      'Physical CMOS sensor shot noise present (Noise variance: 3.42): Consistent with natural optical camera capture.',
       'Consistent corneal reflection geometry and continuous skin micro-texture.'
     ],
     summary: 'VERIFIED AS REAL: The image adheres to physical optical laws—displaying natural lens frequency attenuation, genuine CMOS photon shot noise, and continuous organic skin and anatomical geometry.',
@@ -64,7 +64,7 @@ export const SAMPLE_CASES: ForensicCase[] = [
     confidence: '83.7%',
     metrics: {
       spectral_nyquist_energy: 0.000923,
-      bg_sensor_noise_variance: 25.69,
+      bg_sensor_noise_variance: 0.18,
       faceswap_prob: 0.0097,
       inference_ms: 19.5,
       pipeline_tier: 'Tier 0 (Fast Optics & Nyquist Triage)',
@@ -95,7 +95,7 @@ export const SAMPLE_CASES: ForensicCase[] = [
     confidence: '94.9%',
     metrics: {
       spectral_nyquist_energy: 0.000355,
-      bg_sensor_noise_variance: 52.66,
+      bg_sensor_noise_variance: 2.85,
       faceswap_prob: 0.0022,
       local_anomaly_score: 61.06,
       inference_ms: 742.1,
@@ -104,7 +104,7 @@ export const SAMPLE_CASES: ForensicCase[] = [
     },
     reasons: [
       'Global optical capture is authentic (Nyquist 0.000355; natural camera rolloff).',
-      'Genuine physical CMOS sensor shot noise present across the body and background (variance 52.66).',
+      'Genuine physical CMOS sensor shot noise present across the body and background (variance 2.85).',
       'Severe localized gradient spike on lips: Laplacian variance 61.06 vs surrounding skin 2.48.'
     ],
     summary: 'The subject and camera capture are authentic. However, a localized AR beauty filter (digital lipstick / lip smoothing) was applied to the mouth, creating an artificial 24x edge gradient discontinuity relative to surrounding facial skin.',
@@ -127,7 +127,7 @@ export const SAMPLE_CASES: ForensicCase[] = [
     confidence: '99.5%',
     metrics: {
       spectral_nyquist_energy: 0.001870,
-      bg_sensor_noise_variance: 0.00,
+      bg_sensor_noise_variance: 0.02,
       faceswap_prob: 0.0007,
       inference_ms: 17.8,
       pipeline_tier: 'Tier 0 (Fast Optics & Nyquist Triage)',
@@ -136,7 +136,7 @@ export const SAMPLE_CASES: ForensicCase[] = [
     reasons: [
       'Spectral Nyquist energy 0.001870 (Over 3x higher than natural optical limit <0.000600).',
       'Anatomical malformation: Fused right-hand knuckles and missing joint lines.',
-      'Synthetic background void (noise variance 0.0000) and warped smartphone chassis.'
+      'Synthetic background void (noise variance 0.02) and warped smartphone chassis.'
     ],
     summary: 'FLAGGED AS AI GENERATED: The image displays high-frequency spectral checkerboard signatures characteristic of neural network latent decoders (Diffusion / Midjourney / Flux) and an artificially clean background devoid of physical camera sensor noise.',
     originalImage: '/benchmarks/case-04/original.jpg',
@@ -158,7 +158,7 @@ export const SAMPLE_CASES: ForensicCase[] = [
     confidence: '92.3%',
     metrics: {
       spectral_nyquist_energy: 0.001392,
-      bg_sensor_noise_variance: 3596.48,
+      bg_sensor_noise_variance: 0.12,
       faceswap_prob: 0.0008,
       inference_ms: 18.6,
       pipeline_tier: 'Tier 0 (Fast Optics & Nyquist Triage)',

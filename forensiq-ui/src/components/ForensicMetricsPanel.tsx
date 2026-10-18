@@ -38,7 +38,7 @@ export const ForensicMetricsPanel: React.FC<ForensicMetricsPanelProps> = ({ curr
       `- **Verdict**: ${currentCase.verdict} (${currentCase.confidence} confidence)`,
       `- **Pipeline Tier**: ${pipelineTier} (${inferenceMs.toFixed(1)} ms)`,
       `- **2D FFT Nyquist Energy**: ${currentCase.metrics.spectral_nyquist_energy.toFixed(6)} (Ceiling: <0.000600)`,
-      `- **CMOS Shot Noise Variance**: ${currentCase.metrics.bg_sensor_noise_variance.toFixed(2)} (Silicon floor: >2.00)`,
+      `- **CMOS Shot Noise Variance**: ${currentCase.metrics.bg_sensor_noise_variance.toFixed(2)} (Silicon floor: >0.80)`,
       `- **JPEG DQT Compensation Scale**: ${dqtScale.toFixed(2)}x`,
       `- **Mathematical Summary**: ${currentCase.summary}`,
       `\nVerified by ForensIQ Automated Forensic Core V2.4`
@@ -187,13 +187,13 @@ export const ForensicMetricsPanel: React.FC<ForensicMetricsPanelProps> = ({ curr
             <div
               className="h-full rounded-full bg-white/80 transition-all duration-700"
               style={{
-                width: `${Math.min(100, (currentCase.metrics.bg_sensor_noise_variance / 250) * 100)}%`,
+                width: `${Math.min(100, (currentCase.metrics.bg_sensor_noise_variance / 5.0) * 100)}%`,
               }}
             ></div>
           </div>
           <div className="flex justify-between text-[10px] font-mono text-[#71717A]">
-            <span>Synthetic Void (0.0)</span>
-            <span>Physical CMOS Shot Noise (&gt;2.0)</span>
+            <span>Synthetic Void (&lt;0.20)</span>
+            <span>Physical CMOS Shot Noise (&gt;0.80)</span>
           </div>
         </div>
 

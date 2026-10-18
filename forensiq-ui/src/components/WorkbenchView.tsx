@@ -60,7 +60,7 @@ export const WorkbenchView: React.FC<WorkbenchViewProps> = ({ currentCase, onSel
           noiseResidualImage: layers.noise_residual_url || imageUrl,
           flaggedZones: [
             { zone: 'Spectral Nyquist Area', intensity: data.metrics.spectral_nyquist_energy > 0.0008 ? 0.92 : 0.15, description: 'Periodic high-frequency evaluation' },
-            { zone: 'CMOS Shot Noise Residual', intensity: data.metrics.bg_sensor_noise_variance < 2.0 ? 0.88 : 0.20, description: 'Sensor substrate variance' }
+            { zone: 'CMOS Shot Noise Residual', intensity: data.metrics.bg_sensor_noise_variance < 0.8 ? 0.88 : 0.20, description: 'Sensor substrate variance' }
           ]
         };
         setCustomCase(newCase);
