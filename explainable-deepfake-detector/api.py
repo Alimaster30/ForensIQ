@@ -59,18 +59,21 @@ async def detect_image(file: UploadFile = File(...)):
         detector = ScientificForensicDetector()
 
     # Validate image extension
-    allowed_extensions = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
-    ext = Path(file.filename).suffix.lower()
-    if ext not in allowed_extensions:
-        raise HTTPException(
-            status_code=400,
-            detail=f"Unsupported format '{ext}'. Supported formats: {', '.join(allowed_extensions)}"
-        )
+    allowed_extensions = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".jfif"}
+    filename = file.filename or "upload.jpg"
+    ext = Path(filename).suffix.lower()
+    if not ext or ext not in allowed_extensions:
+        # Default to .jpg if missing or unknown
+        ext = ".jpg"
 
-    # Save incoming upload to temporary file
-    with tempfile.NamedTemporaryFile(delete=False, suffix=ext) as tmp:
-        shutil.copyfileobj(file.file, tmp)
-        tmp_path = tmp.name
+    content = await file.read()
+    if not content or len(content) == 0:
+        raise HTTPException(status_code=400, detail="Uploaded file is empty.")
+
+    # Save incoming upload to temporary file using mkstemp (Windows lock-safe)
+    tmp_fd, tmp_path = tempfile.mkstemp(suffix=ext)
+    with os.fdopen(tmp_fd, "wb") as f_out:
+        f_out.write(content)
 
     try:
         # Run scientific analysis with deep ViT attention rollout
@@ -94,7 +97,7 @@ async def detect_image(file: UploadFile = File(...)):
 
         return {
             "status": "success",
-            "filename": file.filename,
+            "filename": filename,
             "verdict": result.get("verdict"),
             "confidence": result.get("confidence"),
             "metrics": result.get("metrics"),
@@ -109,9 +112,11 @@ async def detect_image(file: UploadFile = File(...)):
             }
         }
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
     finally:
-        if os.path.exists(tmp_path):
+        if 'tmp_path' in locals() and os.path.exists(tmp_path):
             try:
                 os.remove(tmp_path)
             except OSError:

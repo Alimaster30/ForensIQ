@@ -67,7 +67,9 @@ export const WorkbenchView: React.FC<WorkbenchViewProps> = ({ currentCase, onSel
         setLabMode('single');
         setAnalyzing(false);
       } else {
-        alert('Forensic API returned an error: ' + res.statusText);
+        const errJson = await res.json().catch(() => null);
+        const errMsg = errJson?.detail || res.statusText || 'Analysis failed';
+        alert('Forensic API returned an error: ' + errMsg);
         setAnalyzing(false);
         return;
       }

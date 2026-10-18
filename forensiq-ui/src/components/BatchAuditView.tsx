@@ -106,11 +106,13 @@ export const BatchAuditView: React.FC<BatchAuditViewProps> = ({ onInspectCase })
             } : item
           ));
         } else {
+          const errJson = await res.json().catch(() => null);
+          const errMsg = errJson?.detail || res.statusText || 'Analysis failed';
           setItems(prev => prev.map((item, idx) => 
             idx === i ? {
               ...item,
               status: 'error',
-              errorMessage: `Server error: ${res.statusText}`
+              errorMessage: `Server error: ${errMsg}`
             } : item
           ));
         }

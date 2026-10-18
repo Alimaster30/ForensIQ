@@ -213,9 +213,14 @@ class ScientificForensicDetector:
         if not os.path.exists(image_path):
             raise FileNotFoundError(f"Image not found: {image_path}")
 
-        raw_image = Image.open(image_path).convert("RGB")
-        img_bgr = cv2.imread(image_path)
-        gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
+        try:
+            with Image.open(image_path) as img:
+                raw_image = img.convert("RGB")
+        except Exception as e:
+            raise ValueError(f"Unable to decode image file: {e}")
+
+        img_rgb = np.array(raw_image)
+        gray = cv2.cvtColor(img_rgb, cv2.COLOR_RGB2GRAY) if img_rgb.ndim == 3 else img_rgb
 
         # 1. Physics Factor 1: Spectral Nyquist Checkerboard Energy
         nyquist_energy = self.analyze_fft_nyquist(gray)
@@ -335,6 +340,11 @@ class ScientificForensicDetector:
         orig_np = np.array(raw_image)
         heatmap_colored = cv2.applyColorMap(np.uint8(255 * heatmap), cv2.COLORMAP_JET)
         heatmap_colored_rgb = cv2.cvtColor(heatmap_colored, cv2.COLOR_BGR2RGB)
+
+        # Safety check: ensure exact dimensions before cv2.addWeighted and hstack
+        if heatmap_colored_rgb.shape[:2] != orig_np.shape[:2]:
+            heatmap_colored_rgb = cv2.resize(heatmap_colored_rgb, (orig_np.shape[1], orig_np.shape[0]))
+
         overlay_rgb = cv2.addWeighted(orig_np, 0.65, heatmap_colored_rgb, 0.35, 0)
         vis_combined = np.hstack([orig_np, heatmap_colored_rgb, overlay_rgb])
 
