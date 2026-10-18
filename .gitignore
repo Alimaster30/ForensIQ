@@ -1,0 +1,51 @@
+# Environments & Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints
+.pytest_cache/
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+.eslintcache
+
+# Logs & Runtime
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache & Temporary Outputs
+explainable-deepfake-detector/outputs/
+explainable-deepfake-detector/mirha_outputs/
+explainable-deepfake-detector/test_images/
+explainable-deepfake-detector/kaggle_test_cache/
+explainable-deepfake-detector/test_stylegan_crop.jpg
+explainable-deepfake-detector/benchmark_results.json
+explainable-deepfake-detector/*_audit_results.json
+explainable-deepfake-detector/*mirha*
+explainable-deepfake-detector/*chat*
+explainable-deepfake-detector/*parsed*
+explainable-deepfake-detector/fake_face.png
+explainable-deepfake-detector/fake_sample.png
+explainable-deepfake-detector/test_kaggle_*.jpg
+*.egg-info/
+.cache/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo

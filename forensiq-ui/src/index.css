@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian-950: #050607;
+  --color-obsidian-900: #090A0C;
+  --color-obsidian-850: #0F1014;
+  --color-obsidian-800: #15171C;
+  --color-obsidian-750: #1B1E24;
+  --color-obsidian-700: #232730;
+
+  --color-porcelain: #EDEDEF;
+  --color-silver-muted: #A1A1AA;
+  --color-silver-subtle: #71717A;
+
+  --color-forensic-indigo: #6366F1;
+  --color-forensic-emerald: #10B981;
+  --color-forensic-rose: #F43F5E;
+  --color-forensic-amber: #F59E0B;
+
+  --font-display: 'Space Grotesk', -apple-system, sans-serif;
+  --font-sans: 'Geist', 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Lenis Recommended Smooth Scroll Setup */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Tactile Analog Noise Grain Overlay */
+.tactile-grain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 40;
+  opacity: 0.022;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* High-End Architectural Glass & Doppelrand (Double-Bezel) Surfaces */
+.glass-panel {
+  background: rgba(15, 16, 20, 0.78);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+    0 16px 40px -10px rgba(0, 0, 0, 0.6);
+}
+
+.glass-pill {
+  background: rgba(11, 12, 15, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.1),
+    0 20px 48px -8px rgba(0, 0, 0, 0.7);
+}
+
+/* Double-Bezel Structural Containers */
+.double-bezel {
+  padding: 6px;
+  border-radius: 1.75rem;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.double-bezel-inner {
+  border-radius: calc(1.75rem - 6px);
+  background: #0F1014;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.06);
+}
+
+/* Premium Porcelain Button Architecture */
+.btn-porcelain {
+  background: #FFFFFF;
+  color: #090A0C;
+  font-weight: 600;
+  box-shadow: 
+    0 1px 2px rgba(0, 0, 0, 0.4),
+    0 8px 24px -4px rgba(255, 255, 255, 0.12),
+    inset 0 1px 1px rgba(255, 255, 255, 0.9);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-porcelain:hover {
+  background: #F4F4F6;
+  transform: translateY(-1px) scale(1.015);
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.4),
+    0 12px 32px -4px rgba(255, 255, 255, 0.18),
+    inset 0 1px 1px rgba(255, 255, 255, 1);
+}
+
+.btn-porcelain:active {
+  transform: translateY(0px) scale(0.985);
+}
+
+/* Subtle Architectural Grid Background */
+.forensic-grid {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}

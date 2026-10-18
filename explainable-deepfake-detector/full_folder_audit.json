@@ -1,0 +1,401 @@
+{
+  "ai_generated": [
+    {
+      "file": "1000006810.jpg",
+      "nyquist": 0.010119,
+      "bg_var": 1037.91,
+      "is_ai": true
+    },
+    {
+      "file": "1000006811.jpg",
+      "nyquist": 0.006961,
+      "bg_var": 1902.32,
+      "is_ai": true
+    },
+    {
+      "file": "1000006812.jpg",
+      "nyquist": 0.009798,
+      "bg_var": 878.74,
+      "is_ai": true
+    },
+    {
+      "file": "1000006813.jpg",
+      "nyquist": 0.010082,
+      "bg_var": 614.78,
+      "is_ai": true
+    },
+    {
+      "file": "1000006814.jpg",
+      "nyquist": 0.004235,
+      "bg_var": 45.41,
+      "is_ai": true
+    },
+    {
+      "file": "1000006815.jpg",
+      "nyquist": 0.005164,
+      "bg_var": 717.82,
+      "is_ai": true
+    },
+    {
+      "file": "1000006816.jpg",
+      "nyquist": 0.00495,
+      "bg_var": 1344.47,
+      "is_ai": true
+    },
+    {
+      "file": "1000006817.jpg",
+      "nyquist": 0.006174,
+      "bg_var": 637.81,
+      "is_ai": true
+    },
+    {
+      "file": "1000006818.jpg",
+      "nyquist": 0.004991,
+      "bg_var": 358.38,
+      "is_ai": true
+    },
+    {
+      "file": "1000006819.jpg",
+      "nyquist": 0.006646,
+      "bg_var": 581.98,
+      "is_ai": true
+    },
+    {
+      "file": "1000006919.jpg",
+      "nyquist": 0.009917,
+      "bg_var": 181.63,
+      "is_ai": true
+    },
+    {
+      "file": "1000006920.jpg",
+      "nyquist": 0.00963,
+      "bg_var": 222.79,
+      "is_ai": true
+    },
+    {
+      "file": "1000006921.jpg",
+      "nyquist": 0.009123,
+      "bg_var": 586.88,
+      "is_ai": true
+    },
+    {
+      "file": "1000006922.jpg",
+      "nyquist": 0.008115,
+      "bg_var": 799.79,
+      "is_ai": true
+    },
+    {
+      "file": "1000006923.jpg",
+      "nyquist": 0.012643,
+      "bg_var": 1467.67,
+      "is_ai": true
+    },
+    {
+      "file": "1000006924.jpg",
+      "nyquist": 0.011551,
+      "bg_var": 230.24,
+      "is_ai": true
+    },
+    {
+      "file": "1000006925.jpg",
+      "nyquist": 0.010168,
+      "bg_var": 503.85,
+      "is_ai": true
+    },
+    {
+      "file": "1000006932.jpg",
+      "nyquist": 0.001198,
+      "bg_var": 80.58,
+      "is_ai": true
+    },
+    {
+      "file": "1000006933.jpg",
+      "nyquist": 0.007321,
+      "bg_var": 1594.56,
+      "is_ai": true
+    },
+    {
+      "file": "1000006934.jpg",
+      "nyquist": 0.006274,
+      "bg_var": 229.03,
+      "is_ai": true
+    },
+    {
+      "file": "1000006935.jpg",
+      "nyquist": 0.006365,
+      "bg_var": 1843.11,
+      "is_ai": true
+    },
+    {
+      "file": "1000006936.jpg",
+      "nyquist": 0.006089,
+      "bg_var": 579.19,
+      "is_ai": true
+    },
+    {
+      "file": "1000030154.jpg",
+      "nyquist": 0.000781,
+      "bg_var": 0.0,
+      "is_ai": true
+    },
+    {
+      "file": "1872.jpg",
+      "nyquist": 0.021189,
+      "bg_var": 3025.18,
+      "is_ai": true
+    },
+    {
+      "file": "3282.jpg",
+      "nyquist": 0.016502,
+      "bg_var": 2685.11,
+      "is_ai": true
+    },
+    {
+      "file": "3354.jpg",
+      "nyquist": 0.001025,
+      "bg_var": 977.88,
+      "is_ai": true
+    },
+    {
+      "file": "4853.jpg",
+      "nyquist": 0.001037,
+      "bg_var": 82.98,
+      "is_ai": true
+    },
+    {
+      "file": "5036.jpg",
+      "nyquist": 0.000781,
+      "bg_var": 0.0,
+      "is_ai": true
+    },
+    {
+      "file": "5098.jpg",
+      "nyquist": 0.014924,
+      "bg_var": 471.66,
+      "is_ai": true
+    },
+    {
+      "file": "680.jpg",
+      "nyquist": 0.013219,
+      "bg_var": 1073.82,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0013.jpg",
+      "nyquist": 0.001979,
+      "bg_var": 2831.44,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0015.jpg",
+      "nyquist": 0.000996,
+      "bg_var": 1346.72,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0016.jpg",
+      "nyquist": 0.001089,
+      "bg_var": 2012.55,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0019.jpg",
+      "nyquist": 0.000872,
+      "bg_var": 1268.04,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0020.jpg",
+      "nyquist": 0.001125,
+      "bg_var": 2583.68,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0021.jpg",
+      "nyquist": 0.000905,
+      "bg_var": 1776.21,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0075.jpg",
+      "nyquist": 0.000969,
+      "bg_var": 2285.66,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0076.jpg",
+      "nyquist": 0.000978,
+      "bg_var": 1772.59,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0088.jpg",
+      "nyquist": 0.001051,
+      "bg_var": 1490.6,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0101.jpg",
+      "nyquist": 0.00313,
+      "bg_var": 2554.75,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0102.jpg",
+      "nyquist": 0.003244,
+      "bg_var": 2518.83,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0103.jpg",
+      "nyquist": 0.002278,
+      "bg_var": 2210.25,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0104.jpg",
+      "nyquist": 0.003181,
+      "bg_var": 2479.69,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0105.jpg",
+      "nyquist": 0.00169,
+      "bg_var": 1407.29,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0106.jpg",
+      "nyquist": 0.00303,
+      "bg_var": 316.24,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0107.jpg",
+      "nyquist": 0.001212,
+      "bg_var": 1000.33,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0109.jpg",
+      "nyquist": 0.001006,
+      "bg_var": 548.74,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0111.jpg",
+      "nyquist": 0.001143,
+      "bg_var": 1261.67,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0112.jpg",
+      "nyquist": 0.001477,
+      "bg_var": 1371.28,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0115.jpg",
+      "nyquist": 0.000962,
+      "bg_var": 483.72,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0116.jpg",
+      "nyquist": 0.000916,
+      "bg_var": 1890.59,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0117.jpg",
+      "nyquist": 0.001804,
+      "bg_var": 2129.53,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0118.jpg",
+      "nyquist": 0.001261,
+      "bg_var": 1945.96,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240309-WA0120.jpg",
+      "nyquist": 0.001249,
+      "bg_var": 547.09,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20240603-WA0003.jpg",
+      "nyquist": 0.001481,
+      "bg_var": 605.91,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20241030-WA0046.jpg",
+      "nyquist": 0.001028,
+      "bg_var": 34.68,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20241030-WA0047.jpg",
+      "nyquist": 0.000958,
+      "bg_var": 90.35,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20241030-WA0048.jpg",
+      "nyquist": 0.001031,
+      "bg_var": 131.54,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20241030-WA0049.jpg",
+      "nyquist": 0.002139,
+      "bg_var": 225.36,
+      "is_ai": true
+    },
+    {
+      "file": "IMG-20241223-WA0003.jpg",
+      "nyquist": 0.001425,
+      "bg_var": 158.83,
+      "is_ai": true
+    },
+    {
+      "file": "Picture1.png",
+      "nyquist": 0.001707,
+      "bg_var": 0.0,
+      "is_ai": true
+    },
+    {
+      "file": "Picture2.png",
+      "nyquist": 0.004403,
+      "bg_var": 0.0,
+      "is_ai": true
+    },
+    {
+      "file": "Picture3.png",
+      "nyquist": 0.009542,
+      "bg_var": 0.0,
+      "is_ai": true
+    },
+    {
+      "file": "Picture4.png",
+      "nyquist": 0.001816,
+      "bg_var": 493.84,
+      "is_ai": true
+    },
+    {
+      "file": "Picture5.png",
+      "nyquist": 0.01276,
+      "bg_var": 0.0,
+      "is_ai": true
+    },
+    {
+      "file": "Picture6.png",
+      "nyquist": 0.012584,
+      "bg_var": 0.0,
+      "is_ai": true
+    }
+  ],
+  "real_count": 52
+}

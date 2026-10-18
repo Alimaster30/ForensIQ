@@ -1,0 +1,828 @@
+[
+  {
+    "file": "1000006810.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006810.jpg",
+    "real_prob": 0.9988,
+    "fake_prob": 0.0012,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006811.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006811.jpg",
+    "real_prob": 0.9987,
+    "fake_prob": 0.0013,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006812.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006812.jpg",
+    "real_prob": 0.9989,
+    "fake_prob": 0.0011,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006813.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006813.jpg",
+    "real_prob": 0.9991,
+    "fake_prob": 0.0009,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006814.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006814.jpg",
+    "real_prob": 0.9982,
+    "fake_prob": 0.0018,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006815.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006815.jpg",
+    "real_prob": 0.999,
+    "fake_prob": 0.001,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006816.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006816.jpg",
+    "real_prob": 0.9989,
+    "fake_prob": 0.0011,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006817.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006817.jpg",
+    "real_prob": 0.9988,
+    "fake_prob": 0.0012,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006818.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006818.jpg",
+    "real_prob": 0.9988,
+    "fake_prob": 0.0012,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006819.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006819.jpg",
+    "real_prob": 0.9991,
+    "fake_prob": 0.0009,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006919.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006919.jpg",
+    "real_prob": 0.9989,
+    "fake_prob": 0.0011,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006920.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006920.jpg",
+    "real_prob": 0.9989,
+    "fake_prob": 0.0011,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006921.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006921.jpg",
+    "real_prob": 0.9992,
+    "fake_prob": 0.0008,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006922.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006922.jpg",
+    "real_prob": 0.9982,
+    "fake_prob": 0.0018,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006923.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006923.jpg",
+    "real_prob": 0.9985,
+    "fake_prob": 0.0015,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006924.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006924.jpg",
+    "real_prob": 0.9981,
+    "fake_prob": 0.0019,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006925.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006925.jpg",
+    "real_prob": 0.9987,
+    "fake_prob": 0.0012,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006932.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006932.jpg",
+    "real_prob": 0.9943,
+    "fake_prob": 0.0057,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006933.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006933.jpg",
+    "real_prob": 0.983,
+    "fake_prob": 0.017,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006934.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006934.jpg",
+    "real_prob": 0.9964,
+    "fake_prob": 0.0036,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006935.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006935.jpg",
+    "real_prob": 0.9608,
+    "fake_prob": 0.0392,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000006936.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000006936.jpg",
+    "real_prob": 0.9958,
+    "fake_prob": 0.0042,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1000030154.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1000030154.jpg",
+    "real_prob": 0.9994,
+    "fake_prob": 0.0006,
+    "verdict": "REAL"
+  },
+  {
+    "file": "1872.jpg",
+    "path": "E:\\UNIV Friends - Copy\\1872.jpg",
+    "real_prob": 0.9983,
+    "fake_prob": 0.0017,
+    "verdict": "REAL"
+  },
+  {
+    "file": "3135.jpg",
+    "path": "E:\\UNIV Friends - Copy\\3135.jpg",
+    "real_prob": 0.996,
+    "fake_prob": 0.004,
+    "verdict": "REAL"
+  },
+  {
+    "file": "3282.jpg",
+    "path": "E:\\UNIV Friends - Copy\\3282.jpg",
+    "real_prob": 0.9987,
+    "fake_prob": 0.0013,
+    "verdict": "REAL"
+  },
+  {
+    "file": "3354.jpg",
+    "path": "E:\\UNIV Friends - Copy\\3354.jpg",
+    "real_prob": 0.997,
+    "fake_prob": 0.003,
+    "verdict": "REAL"
+  },
+  {
+    "file": "4843.jpg",
+    "path": "E:\\UNIV Friends - Copy\\4843.jpg",
+    "real_prob": 0.9996,
+    "fake_prob": 0.0004,
+    "verdict": "REAL"
+  },
+  {
+    "file": "4853.jpg",
+    "path": "E:\\UNIV Friends - Copy\\4853.jpg",
+    "real_prob": 0.9888,
+    "fake_prob": 0.0112,
+    "verdict": "REAL"
+  },
+  {
+    "file": "5036.jpg",
+    "path": "E:\\UNIV Friends - Copy\\5036.jpg",
+    "real_prob": 0.9994,
+    "fake_prob": 0.0006,
+    "verdict": "REAL"
+  },
+  {
+    "file": "5098.jpg",
+    "path": "E:\\UNIV Friends - Copy\\5098.jpg",
+    "real_prob": 0.9981,
+    "fake_prob": 0.0019,
+    "verdict": "REAL"
+  },
+  {
+    "file": "680.jpg",
+    "path": "E:\\UNIV Friends - Copy\\680.jpg",
+    "real_prob": 0.9987,
+    "fake_prob": 0.0013,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240307-WA0007.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240307-WA0007.jpg",
+    "real_prob": 0.9991,
+    "fake_prob": 0.0009,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240308-WA0145.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240308-WA0145.jpg",
+    "real_prob": 0.999,
+    "fake_prob": 0.001,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240308-WA0146.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240308-WA0146.jpg",
+    "real_prob": 0.9972,
+    "fake_prob": 0.0028,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0012.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0012.jpg",
+    "real_prob": 0.9989,
+    "fake_prob": 0.0011,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0013.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0013.jpg",
+    "real_prob": 0.9993,
+    "fake_prob": 0.0007,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0015.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0015.jpg",
+    "real_prob": 0.998,
+    "fake_prob": 0.002,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0016.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0016.jpg",
+    "real_prob": 0.9982,
+    "fake_prob": 0.0018,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0017.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0017.jpg",
+    "real_prob": 0.9983,
+    "fake_prob": 0.0017,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0018.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0018.jpg",
+    "real_prob": 0.9987,
+    "fake_prob": 0.0013,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0019.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0019.jpg",
+    "real_prob": 0.999,
+    "fake_prob": 0.001,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0020.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0020.jpg",
+    "real_prob": 0.9972,
+    "fake_prob": 0.0028,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0021.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0021.jpg",
+    "real_prob": 0.9992,
+    "fake_prob": 0.0008,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0022.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0022.jpg",
+    "real_prob": 0.9989,
+    "fake_prob": 0.0011,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0075.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0075.jpg",
+    "real_prob": 0.9991,
+    "fake_prob": 0.0009,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0076.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0076.jpg",
+    "real_prob": 0.9991,
+    "fake_prob": 0.0009,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0078.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0078.jpg",
+    "real_prob": 0.9985,
+    "fake_prob": 0.0015,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0079.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0079.jpg",
+    "real_prob": 0.9993,
+    "fake_prob": 0.0007,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0081.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0081.jpg",
+    "real_prob": 0.9985,
+    "fake_prob": 0.0015,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0088.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0088.jpg",
+    "real_prob": 0.9986,
+    "fake_prob": 0.0014,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0101.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0101.jpg",
+    "real_prob": 0.9981,
+    "fake_prob": 0.0019,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0102.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0102.jpg",
+    "real_prob": 0.9985,
+    "fake_prob": 0.0015,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0103.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0103.jpg",
+    "real_prob": 0.9799,
+    "fake_prob": 0.0201,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0104.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0104.jpg",
+    "real_prob": 0.9982,
+    "fake_prob": 0.0018,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0105.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0105.jpg",
+    "real_prob": 0.9948,
+    "fake_prob": 0.0052,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0106.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0106.jpg",
+    "real_prob": 0.9979,
+    "fake_prob": 0.0021,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0107.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0107.jpg",
+    "real_prob": 0.9956,
+    "fake_prob": 0.0044,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0108.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0108.jpg",
+    "real_prob": 0.9982,
+    "fake_prob": 0.0018,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0109.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0109.jpg",
+    "real_prob": 0.9981,
+    "fake_prob": 0.0019,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0110.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0110.jpg",
+    "real_prob": 0.9988,
+    "fake_prob": 0.0012,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0111.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0111.jpg",
+    "real_prob": 0.9977,
+    "fake_prob": 0.0023,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0112.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0112.jpg",
+    "real_prob": 0.9983,
+    "fake_prob": 0.0017,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0113.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0113.jpg",
+    "real_prob": 0.9968,
+    "fake_prob": 0.0032,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0114.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0114.jpg",
+    "real_prob": 0.9992,
+    "fake_prob": 0.0008,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0115.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0115.jpg",
+    "real_prob": 0.9992,
+    "fake_prob": 0.0008,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0116.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0116.jpg",
+    "real_prob": 0.9993,
+    "fake_prob": 0.0007,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0117.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0117.jpg",
+    "real_prob": 0.9963,
+    "fake_prob": 0.0037,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0118.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0118.jpg",
+    "real_prob": 0.9958,
+    "fake_prob": 0.0042,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0120.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0120.jpg",
+    "real_prob": 0.9976,
+    "fake_prob": 0.0024,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240309-WA0132.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240309-WA0132.jpg",
+    "real_prob": 0.997,
+    "fake_prob": 0.003,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240420-WA0002.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240420-WA0002.jpg",
+    "real_prob": 0.8878,
+    "fake_prob": 0.1122,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240425-WA0028.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240425-WA0028.jpg",
+    "real_prob": 0.9937,
+    "fake_prob": 0.0063,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240425-WA0029.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240425-WA0029.jpg",
+    "real_prob": 0.9976,
+    "fake_prob": 0.0024,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240425-WA0031.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240425-WA0031.jpg",
+    "real_prob": 0.9963,
+    "fake_prob": 0.0037,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240522-WA0005.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240522-WA0005.jpg",
+    "real_prob": 0.9921,
+    "fake_prob": 0.0079,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240522-WA0006.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240522-WA0006.jpg",
+    "real_prob": 0.9904,
+    "fake_prob": 0.0096,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240527-WA0005.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240527-WA0005.jpg",
+    "real_prob": 0.9989,
+    "fake_prob": 0.0011,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240602-WA0016.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240602-WA0016.jpg",
+    "real_prob": 0.9951,
+    "fake_prob": 0.0049,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240602-WA0017.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240602-WA0017.jpg",
+    "real_prob": 0.988,
+    "fake_prob": 0.012,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240603-WA0003.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240603-WA0003.jpg",
+    "real_prob": 0.997,
+    "fake_prob": 0.003,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240603-WA0015.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240603-WA0015.jpg",
+    "real_prob": 0.9996,
+    "fake_prob": 0.0004,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240913-WA0022.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240913-WA0022.jpg",
+    "real_prob": 0.9926,
+    "fake_prob": 0.0074,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240913-WA0023.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240913-WA0023.jpg",
+    "real_prob": 0.9902,
+    "fake_prob": 0.0098,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240913-WA0024.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240913-WA0024.jpg",
+    "real_prob": 0.9913,
+    "fake_prob": 0.0087,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20240913-WA0025.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20240913-WA0025.jpg",
+    "real_prob": 0.9949,
+    "fake_prob": 0.0051,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241013-WA0056.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241013-WA0056.jpg",
+    "real_prob": 0.9989,
+    "fake_prob": 0.0011,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241013-WA0057.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241013-WA0057.jpg",
+    "real_prob": 0.9986,
+    "fake_prob": 0.0014,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241030-WA0045.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241030-WA0045.jpg",
+    "real_prob": 0.9793,
+    "fake_prob": 0.0207,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241030-WA0046.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241030-WA0046.jpg",
+    "real_prob": 0.9891,
+    "fake_prob": 0.0109,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241030-WA0047.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241030-WA0047.jpg",
+    "real_prob": 0.9657,
+    "fake_prob": 0.0343,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241030-WA0048.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241030-WA0048.jpg",
+    "real_prob": 0.9733,
+    "fake_prob": 0.0267,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241030-WA0049.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241030-WA0049.jpg",
+    "real_prob": 0.9908,
+    "fake_prob": 0.0092,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241030-WA0050.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241030-WA0050.jpg",
+    "real_prob": 0.9872,
+    "fake_prob": 0.0128,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241104-WA0035.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241104-WA0035.jpg",
+    "real_prob": 0.9878,
+    "fake_prob": 0.0122,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241104-WA0036.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241104-WA0036.jpg",
+    "real_prob": 0.9733,
+    "fake_prob": 0.0267,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241104-WA0037.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241104-WA0037.jpg",
+    "real_prob": 0.9799,
+    "fake_prob": 0.0201,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241104-WA0038.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241104-WA0038.jpg",
+    "real_prob": 0.9828,
+    "fake_prob": 0.0172,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241104-WA0039.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241104-WA0039.jpg",
+    "real_prob": 0.9914,
+    "fake_prob": 0.0086,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241104-WA0040.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241104-WA0040.jpg",
+    "real_prob": 0.9794,
+    "fake_prob": 0.0206,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241104-WA0041.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241104-WA0041.jpg",
+    "real_prob": 0.9846,
+    "fake_prob": 0.0154,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241122-WA0001.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241122-WA0001.jpg",
+    "real_prob": 0.9994,
+    "fake_prob": 0.0006,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241211-WA0041.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241211-WA0041.jpg",
+    "real_prob": 0.9991,
+    "fake_prob": 0.0009,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241211-WA0042.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241211-WA0042.jpg",
+    "real_prob": 0.9992,
+    "fake_prob": 0.0008,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241211-WA0043.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241211-WA0043.jpg",
+    "real_prob": 0.9989,
+    "fake_prob": 0.0011,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241211-WA0044.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241211-WA0044.jpg",
+    "real_prob": 0.9991,
+    "fake_prob": 0.0009,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241222-WA0019.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241222-WA0019.jpg",
+    "real_prob": 0.9991,
+    "fake_prob": 0.0009,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241223-WA0001.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241223-WA0001.jpg",
+    "real_prob": 0.999,
+    "fake_prob": 0.001,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241223-WA0002.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241223-WA0002.jpg",
+    "real_prob": 0.9984,
+    "fake_prob": 0.0016,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241223-WA0003.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241223-WA0003.jpg",
+    "real_prob": 0.9979,
+    "fake_prob": 0.0021,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241223-WA0004.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241223-WA0004.jpg",
+    "real_prob": 0.9988,
+    "fake_prob": 0.0012,
+    "verdict": "REAL"
+  },
+  {
+    "file": "IMG-20241223-WA0005.jpg",
+    "path": "E:\\UNIV Friends - Copy\\IMG-20241223-WA0005.jpg",
+    "real_prob": 0.9992,
+    "fake_prob": 0.0008,
+    "verdict": "REAL"
+  },
+  {
+    "file": "Picture1.png",
+    "path": "E:\\UNIV Friends - Copy\\Picture1.png",
+    "real_prob": 0.9982,
+    "fake_prob": 0.0018,
+    "verdict": "REAL"
+  },
+  {
+    "file": "Picture2.png",
+    "path": "E:\\UNIV Friends - Copy\\Picture2.png",
+    "real_prob": 0.9939,
+    "fake_prob": 0.0061,
+    "verdict": "REAL"
+  },
+  {
+    "file": "Picture3.png",
+    "path": "E:\\UNIV Friends - Copy\\Picture3.png",
+    "real_prob": 0.9972,
+    "fake_prob": 0.0028,
+    "verdict": "REAL"
+  },
+  {
+    "file": "Picture4.png",
+    "path": "E:\\UNIV Friends - Copy\\Picture4.png",
+    "real_prob": 0.998,
+    "fake_prob": 0.002,
+    "verdict": "REAL"
+  },
+  {
+    "file": "Picture5.png",
+    "path": "E:\\UNIV Friends - Copy\\Picture5.png",
+    "real_prob": 0.9984,
+    "fake_prob": 0.0016,
+    "verdict": "REAL"
+  },
+  {
+    "file": "Picture6.png",
+    "path": "E:\\UNIV Friends - Copy\\Picture6.png",
+    "real_prob": 0.9959,
+    "fake_prob": 0.0041,
+    "verdict": "REAL"
+  }
+]

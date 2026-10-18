@@ -1,0 +1,100 @@
+[
+  {
+    "id": "case-01",
+    "title": "Photorealistic AI Male Portrait",
+    "verdict": "AUTHENTIC REAL PHOTO",
+    "confidence": "88.0%",
+    "metrics": {
+      "spectral_nyquist_energy": 0.000398,
+      "bg_sensor_noise_variance": 219.216,
+      "faceswap_prob": 0.0074
+    },
+    "reasons": [
+      "Normal optical spectral rolloff (0.000398): No neural upsampler checkerboard grid artifacts detected.",
+      "Physical CMOS sensor shot noise present (Noise variance: 219.22): Consistent with natural optical camera capture."
+    ],
+    "summary": "VERIFIED AS REAL: The image adheres to physical optical laws\u2014displaying natural lens frequency attenuation, genuine CMOS photon shot noise, and continuous organic skin and anatomical geometry.",
+    "originalImage": "/benchmarks/case-01/original.jpg",
+    "heatmapOverlay": "/benchmarks/case-01/original_vit_overlay.jpg",
+    "fftSpectrumImage": "/benchmarks/case-01/original_fft_spectrum.jpg",
+    "noiseResidualImage": "/benchmarks/case-01/original_noise_residual.jpg"
+  },
+  {
+    "id": "case-02",
+    "title": "Authentic Smartphone Portrait",
+    "verdict": "AI GENERATED (SYNTHETIC)",
+    "confidence": "92.3%",
+    "metrics": {
+      "spectral_nyquist_energy": 0.000923,
+      "bg_sensor_noise_variance": 25.6928,
+      "faceswap_prob": 0.0097
+    },
+    "reasons": [
+      "Spectral Nyquist checkerboard artifact detected (0.000923 vs real camera baseline <0.000600). This indicates transposed-convolution upsampling typical of latent diffusion decoders and GAN generators."
+    ],
+    "summary": "FLAGGED AS AI GENERATED: The image displays high-frequency spectral checkerboard signatures characteristic of neural network latent decoders (Diffusion / Midjourney / Flux) and an artificially clean background devoid of physical camera sensor noise.",
+    "originalImage": "/benchmarks/case-02/original.jpg",
+    "heatmapOverlay": "/benchmarks/case-02/original_vit_overlay.jpg",
+    "fftSpectrumImage": "/benchmarks/case-02/original_fft_spectrum.jpg",
+    "noiseResidualImage": "/benchmarks/case-02/original_noise_residual.jpg"
+  },
+  {
+    "id": "case-03",
+    "title": "Real Photo with Snapchat AR Lip Filter",
+    "verdict": "AUTHENTIC REAL PHOTO",
+    "confidence": "88.0%",
+    "metrics": {
+      "spectral_nyquist_energy": 0.000355,
+      "bg_sensor_noise_variance": 52.6643,
+      "faceswap_prob": 0.0022
+    },
+    "reasons": [
+      "Normal optical spectral rolloff (0.000355): No neural upsampler checkerboard grid artifacts detected.",
+      "Physical CMOS sensor shot noise present (Noise variance: 52.66): Consistent with natural optical camera capture."
+    ],
+    "summary": "VERIFIED AS REAL: The image adheres to physical optical laws\u2014displaying natural lens frequency attenuation, genuine CMOS photon shot noise, and continuous organic skin and anatomical geometry.",
+    "originalImage": "/benchmarks/case-03/original.jpg",
+    "heatmapOverlay": "/benchmarks/case-03/original_vit_overlay.jpg",
+    "fftSpectrumImage": "/benchmarks/case-03/original_fft_spectrum.jpg",
+    "noiseResidualImage": "/benchmarks/case-03/original_noise_residual.jpg"
+  },
+  {
+    "id": "case-04",
+    "title": "Viral Political Meme (President in Luxury Car)",
+    "verdict": "AI GENERATED (SYNTHETIC)",
+    "confidence": "98.5%",
+    "metrics": {
+      "spectral_nyquist_energy": 0.00187,
+      "bg_sensor_noise_variance": 0.0,
+      "faceswap_prob": 0.0007
+    },
+    "reasons": [
+      "Spectral Nyquist checkerboard artifact detected (0.001870 vs real camera baseline <0.000600). This indicates transposed-convolution upsampling typical of latent diffusion decoders and GAN generators.",
+      "Synthetic background void detected: Background noise variance is extremely low (0.00 vs real camera noise >2.0). Physical camera sensors produce continuous photon shot noise across the frame, whereas this background was rendered digitally."
+    ],
+    "summary": "FLAGGED AS AI GENERATED: The image displays high-frequency spectral checkerboard signatures characteristic of neural network latent decoders (Diffusion / Midjourney / Flux) and an artificially clean background devoid of physical camera sensor noise.",
+    "originalImage": "/benchmarks/case-04/original.jpg",
+    "heatmapOverlay": "/benchmarks/case-04/original_vit_overlay.jpg",
+    "fftSpectrumImage": "/benchmarks/case-04/original_fft_spectrum.jpg",
+    "noiseResidualImage": "/benchmarks/case-04/original_noise_residual.jpg"
+  },
+  {
+    "id": "case-05",
+    "title": "Virtual AI Influencer in Outdoor Patio",
+    "verdict": "AI GENERATED (SYNTHETIC)",
+    "confidence": "98.5%",
+    "metrics": {
+      "spectral_nyquist_energy": 0.001392,
+      "bg_sensor_noise_variance": 3596.4841,
+      "faceswap_prob": 0.0008
+    },
+    "reasons": [
+      "Spectral Nyquist checkerboard artifact detected (0.001392 vs real camera baseline <0.000600). This indicates transposed-convolution upsampling typical of latent diffusion decoders and GAN generators."
+    ],
+    "summary": "FLAGGED AS AI GENERATED: The image displays high-frequency spectral checkerboard signatures characteristic of neural network latent decoders (Diffusion / Midjourney / Flux) and an artificially clean background devoid of physical camera sensor noise.",
+    "originalImage": "/benchmarks/case-05/original.jpg",
+    "heatmapOverlay": "/benchmarks/case-05/original_vit_overlay.jpg",
+    "fftSpectrumImage": "/benchmarks/case-05/original_fft_spectrum.jpg",
+    "noiseResidualImage": "/benchmarks/case-05/original_noise_residual.jpg"
+  }
+]
